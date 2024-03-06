@@ -1,0 +1,84 @@
+.about-container {
+  .about-content {
+    .about-content-left {
+      .desk-image {
+        width: 100%;
+        border-radius: 1.7rem;
+        border: 1px solid #000;
+      }
+      .logo-image {
+        position: absolute;
+        border-radius: 50%;
+        width: 8rem;
+        height: 8rem;
+        background-image: url("../../Assets/Images/Satomi Jin.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: 45%;
+        bottom: 0%;
+      }
+    }
+    .about-content-right {
+      padding: 2rem;
+      .title {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #147efb;
+      }
+      .desc {
+        .desc-title {
+          font-size: 1.7rem;
+          font-weight: 600;
+          margin: 1rem 0;
+          .viet-nam-logo {
+            height: 30px;
+            // display: flex;
+          }
+        }
+        .desc-detail {
+          font-size: 1rem;
+          font-weight: 500;
+          color: #555;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .about-container {
+    .about-content {
+      .about-content-right {
+        text-align: center;
+        .desc {
+          .desc-title {
+            font-size: 1.7rem;
+          }
+          .desc-detail {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 739px) {
+  .about-container {
+    .about-content {
+      .about-content-right {
+        text-align: center;
+        .desc {
+          .desc-title {
+            font-size: 1.7rem;
+          }
+          .desc-detail {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

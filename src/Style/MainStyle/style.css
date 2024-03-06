@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "My Font";
+    src: url("../../Assets/fonts/codelearn-font.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "My Font";
+    /* font-size: 20px; */
+    overflow-x: hidden;
+    background-color: #fff;
+
+}
+
+div{
+    background-color: transparent;
+}
+
+.col {
+    background-clip: content-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
